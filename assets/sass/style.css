@@ -180,20 +180,18 @@ header .container-fluid .row .col-md-1 span:hover {
   transform: scale(1.3);
 }
 
-.section-b h2 {
+.section-b .text-center h2 {
   letter-spacing: 5px;
   font-weight: 400;
-  position: relative;
 }
-.section-b h2::before {
+.section-b .text-center h2::after {
   content: "";
-  display: inline-block;
-  position: absolute;
+  display: block;
   width: 50px;
   height: 7px;
   background-color: rgb(183, 126, 49);
-  top: 40px;
-  left: 650px;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 .section-b .container-fluid .row .img-1, .section-b .container-fluid .row .img-4, .section-b .container-fluid .row .img-3, .section-b .container-fluid .row .img-2 {
   width: 306px;
@@ -267,14 +265,13 @@ header .container-fluid .row .col-md-1 span:hover {
 .story .container h2 {
   letter-spacing: 5px;
 }
-.story .container h2::before {
+.story .container h2::after {
   content: "";
   display: block;
-  position: absolute;
   width: 50px;
   height: 8px;
   background-color: rgb(183, 126, 50);
-  top: 315px;
+  margin-top: 10px;
 }
 .story .container p {
   width: 90%;
@@ -315,18 +312,16 @@ header .container-fluid .row .col-md-1 span:hover {
 }
 
 .choice .text-center h2 {
-  position: relative;
   letter-spacing: 4px;
 }
-.choice .text-center h2::before {
+.choice .text-center h2::after {
   content: "";
   display: block;
-  position: absolute;
   width: 60px;
   height: 8px;
   background-color: rgb(183, 126, 50);
-  top: 50px;
-  left: 650px;
+  margin-left: 130px;
+  margin-top: 5px;
 }
 .choice .container .col-md-4 .text-center p:hover {
   cursor: pointer;
@@ -484,15 +479,14 @@ header .container-fluid .row .col-md-1 span:hover {
 
 .instagram .text h2 {
   letter-spacing: 5px;
-  position: relative;
 }
 .instagram .text h2::after {
   content: "";
-  position: absolute;
   display: block;
   width: 60px;
   height: 10px;
-  left: 650px;
+  margin-left: 130px;
+  margin-top: 5px;
   background-color: rgb(183, 126, 49);
 }
 .instagram .container-fluid {
